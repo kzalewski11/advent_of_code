@@ -12,13 +12,11 @@ int main() {
 	in.close();
 
 	int solution;
-	for (int j=0; j<cur-2; j++) {
-		for (int k=j+1; k<cur-1; k++) {
-			for (int l=k+1; l<cur; l++) {
-				if (expenses[j] + expenses[k] + expenses[l] == 2020) {
-					solution = expenses[j] * expenses[k] * expenses[l];
-					break;		
-				}
+	for (int i=0; i<cur-1; i++) {
+		for (int j=i+1; j<cur; j++) {
+			if (expenses[i] + expenses[j] == 2020) {
+				solution = expenses[i] * expenses[j];
+				break;
 			}
 		}
 	}
