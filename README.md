@@ -1,2 +1,2 @@
-# advent2020
+# Advent of Code
 ## Get your ass a Christmas
