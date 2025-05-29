@@ -1,2 +1,2 @@
 # Advent of Code
-## Get your ass a Christmas
+## Get a Christmas
